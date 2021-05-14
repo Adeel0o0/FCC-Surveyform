@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Raleway:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="text.css">
+ <h1><title="id">Gym survey form</title></h1>
+</head>
+<body class="img">
+  <p id="description"><i>Thank you for taking your time to give us feedback</i></p>
+  <form id="form" class="form">
+    <label id="name-label" for="name">1. First name:</label>
+  <input 
+         type="text" 
+         id="name" 
+         name="name"
+         class="signup-text-input"
+         placeholder="Joe..">
+         </br>
+  <label id="surname-label" for="Surname">2. Surname:</label>
+  <input 
+         type="text" 
+         id="surname" 
+         name="surname"
+         class="signup-text-input"
+         placeholder="Blogs..">
+          </br>
+<label id="email-label" for="email">3. Email:</label>
+  <input required 
+         type="email" 
+         id="email"  
+         name="email" 
+         class="signup-text-input"
+         placeholder="Joe@gmail.com..">
+         </br>
+<label id="number-label" for="Number">4. Age</label>
+
+<input required 
+       type="number" 
+       min="18" 
+       max="55" 
+       id="number" 
+       name="number" 
+       class="signup-text-input"
+       placeholder="..">
+       </br>
+<label for="area">5. Which branch do you go to?</label>
+<select name="area" id="dropwdown">
+  <option value="Camden">Camden</option>
+  <option value="Kings Cross">Kings Cross</option>
+  <option value="Old Street">Old Street</option>
+  <option value="Shoreditch">Shoreditch</option>
+</select>
+<h4>6. What membership do you currently have?</h4>
+<input 
+       type="checkbox" 
+       id="monthly membership" 
+       name="monthly membership"
+       value="monthly membership">
+<label for="Monthly membership">Monthly</label></br>
+<input
+      type="checkbox"
+      id="Weekly Membership"
+      name="Weekly Membership"
+      value="weekly membership">
+<label for="weekly membership">Weekly</label></br>
+<input
+      type="checkbox"
+      id="Annual membership"
+      value="annual membership"
+      value="annual membership">
+<label for="annual membership">Annual</label></br>
+<h4>7. Would you recommend this gym to a friend?</h4>
+<input
+       type="radio"
+       id="Definitely"
+       name="Definitely"
+       value="Definitely">
+
+ <!--Need to ask about value attribute in coding club -->
+<label for="Definitely">Definitely</label></br>
+<input
+     type="radio"
+     id="Maybe"
+     name="Maybe"
+     value="Maybe">
+<label for="Maybe">Maybe</label></br>
+<input 
+       type="radio"
+       id="Not Sure"
+       name="Not Sure"
+       value="Not Sure">
+<label for="Not Sure">Not Sure</label</br>
+<h4>8. Any comments or suggestions?</h4>
+       <textarea 
+          id="comments"
+          name="comments"
+          class="signup-text-input"     
+          class="input-textarea"
+          placeholder="Enter your comments here..."
+          ></textarea></br>
+</br><input 
+       type="Submit"
+       id="Submit"
+       class="submit-button"
+       value="Submit">
+</form>
+</div>
+</body>
+</html>

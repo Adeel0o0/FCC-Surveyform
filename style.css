@@ -1,0 +1,103 @@
+
+.form {
+    background-color:#FFFCF7;
+    max-width:500px;
+    margin:auto;
+    font-family: 'Roboto Slab', serif;
+    padding:38px;
+    margin:5px, 0px;
+    border:4px;
+    box-shadow:2px 3px 15px 4px rgba(0,0,0,0.06);
+    border-radius:3px;
+    width:100%;
+    
+  }
+  
+  .img {
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/12/21/14/silhouette-1975689_960_720.png');
+    background-repeat:no-repeat;
+    background-position:700px 100px;
+    
+  }
+  
+  h1 {
+    text-align:center;
+   
+  }
+  
+  p {
+    text-align:center;
+    font-weight:bold;
+   
+  }
+  
+  .signup-text-input {
+    padding:10px;
+    margin:5px, 0px;
+    border:2px;
+    box-shadow:2px 3px 15px 4px rgba(0,0,0,0.06);
+    border-radius:3px;
+    width:100%;
+    
+  }
+  
+  select {
+    width: 100%;
+    padding:10px;
+    border-radius:3px;
+    margin: 5px, 0px;
+  }
+  
+  .input-textarea {
+    margin:20px;
+    width:100%;
+    padding: 0.625rem;
+    resize:vertical;
+  }
+  
+  .submit-button {
+    padding:15px;
+    border:none;
+    background:#709775; 
+    width:100%;
+    font-weight:700;
+    border-radius:5px;
+    color:#fff;
+    font-size:large;
+  }
+  
+  .submit-button:hover {
+    background-color:#224870;
+  }
+  
+  
+  @media (max-width:670px) {
+    .form {
+     width:220px;
+     height:740px;
+      
+    }
+    
+    h1 {
+      font-size:24px;
+      
+      
+    }
+    
+    p {
+      font-size:18px;
+      
+    }
+    
+    .submit-button {
+      width:220px;
+     
+    }
+    
+    .input-textarea {
+      width:220px;
+    }
+    
+    .signup-text-input {
+      width:220px;
+    }
