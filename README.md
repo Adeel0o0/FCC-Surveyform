@@ -6,8 +6,8 @@ This was my first project building a gym survery form
 I started learning how to code by using [Freecodecamp.org](https://www.freecodecamp.org/). This is the first project on their responsive web design course.
 
 ## Technologies used
-HTML
-CSS
+- HTML
+- CSS
 
 ## Link
 
