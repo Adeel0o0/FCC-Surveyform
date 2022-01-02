@@ -7,6 +7,7 @@ I started learning how to code by using [Freecodecamp.org](https://www.freecodec
 
 ## Technologies used
 HTML
+CSS
 
 ## Link
 
